@@ -1,3 +1,3 @@
-module mail2sdk
+module github.com/chuyu5762/mail2sdk
 
-go 1.25.1
+go 1.21
