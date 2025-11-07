@@ -20,14 +20,26 @@
 
 ### 安装
 
-将 `mail2sdk.go` 复制到你的项目目录中：
+#### 方式一：使用 go get（推荐）
+
+```bash
+go get github.com/chuyu5762/mail2sdk@latest
+```
+
+或指定版本：
+
+```bash
+go get github.com/chuyu5762/mail2sdk@v1.0.0
+```
+
+#### 方式二：直接复制文件
 
 ```bash
 # 下载 SDK 文件
-curl -O https://your-repo/mail2sdk.go
+curl -O https://raw.githubusercontent.com/chuyu5762/mail2sdk/main/mail2sdk.go
 
-# 或者直接复制文件到项目
-cp mail2sdk.go /path/to/your/project/
+# 或使用 wget
+wget https://raw.githubusercontent.com/chuyu5762/mail2sdk/main/mail2sdk.go
 ```
 
 ### 基本使用
@@ -38,7 +50,7 @@ package main
 import (
     "fmt"
     "log"
-    "your-project/mail2sdk"
+    "github.com/chuyu5762/mail2sdk"
 )
 
 func main() {
