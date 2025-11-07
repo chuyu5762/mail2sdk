@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/badge/Go-1.21%2B-blue)](https://go.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0.0-orange)](https://github.com/chuyu5762/mail2sdk)
+[![Version](https://img.shields.io/badge/version-1.1.0-orange)](https://github.com/chuyu5762/mail2sdk)
 
 一个简洁易用的 Go 语言临时邮箱 SDK，用于与 Mail2 临时邮箱系统交互。
 
@@ -29,7 +29,7 @@ go get github.com/chuyu5762/mail2sdk@latest
 或指定版本：
 
 ```bash
-go get github.com/chuyu5762/mail2sdk@v2.0.0
+go get github.com/chuyu5762/mail2sdk@v1.1.0
 ```
 
 #### 方式二：直接复制文件

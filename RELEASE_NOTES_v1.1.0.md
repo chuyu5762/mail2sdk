@@ -1,4 +1,4 @@
-# Mail2 SDK v2.0.0
+# Mail2 SDK v1.1.0
 
 ## 🎉 正式稳定版本发布
 
@@ -19,7 +19,7 @@ Mail2 SDK 是一个简洁易用的 Go 语言临时邮箱 SDK，用于与 Mail2 �
 ### 方式一：使用 go get（推荐）
 
 ```bash
-go get github.com/chuyu5762/mail2sdk@v2.0.0
+go get github.com/chuyu5762/mail2sdk@v1.1.0
 ```
 
 或获取最新版本：
@@ -32,10 +32,10 @@ go get github.com/chuyu5762/mail2sdk@latest
 
 ```bash
 # 下载 SDK 文件
-curl -O https://raw.githubusercontent.com/chuyu5762/mail2sdk/v2.0.0/mail2sdk.go
+curl -O https://raw.githubusercontent.com/chuyu5762/mail2sdk/v1.1.0/mail2sdk.go
 
 # 或使用 wget
-wget https://raw.githubusercontent.com/chuyu5762/mail2sdk/v2.0.0/mail2sdk.go
+wget https://raw.githubusercontent.com/chuyu5762/mail2sdk/v1.1.0/mail2sdk.go
 ```
 
 ## 🚀 快速开始
@@ -119,7 +119,7 @@ func main() {
 
 ## 📝 更新日志
 
-### v2.0.0 (2025-11-07)
+### v1.1.0 (2025-11-07)
 
 #### 重要变更
 - 🎉 正式稳定版本发布

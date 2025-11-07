@@ -32,7 +32,7 @@ import (
 )
 
 // 版本信息
-const Version = "2.0.0"
+const Version = "1.1.0"
 
 // 全局随机数生成器和域名选择器（线程安全）
 var (
